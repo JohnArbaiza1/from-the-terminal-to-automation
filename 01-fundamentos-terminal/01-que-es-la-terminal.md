@@ -39,3 +39,106 @@ Desglosado:
 - `~` → tu ubicación actual (`~` significa tu carpeta personal, `/home/usuario`)
 - `$` → indica que eres un usuario normal (si fuera `#`, serías administrador/root)
 ---
+
+## Tu primer comando
+Antes de entender cómo funciona todo, vamos a ejecutar algo real.
+
+Abre la terminal y escribe:
+```bash
+$ echo "Hola, mundo"
+```
+
+Luego presiona Enter.
+
+Deberías ver:
+```
+Hola, mundo
+```
+
+¡Listo! Acabas de ejecutar tu primer comando.
+
+`echo` es un comando que simplemente imprime texto en la terminal.
+
+**¿Qué acaba de pasar?**
+
+Aunque parezca simple, ya ocurrieron varias cosas:
+
+- Escribiste un comando (echo)
+- El shell lo interpretó
+- El sistema lo ejecutó
+- La terminal mostró el resultado
+
+---
+
+## Comandos básicos de orientación
+Ahora veremos algunos comandos esenciales para ubicarnos en el sistema.
+
+**¿Quién soy? —** `whoami`
+```bash
+$ whoami
+```
+Salida:
+```
+tu_usuario
+```
+Muestra con qué usuario estás trabajando actualmente.
+
+**¿Dónde estoy? -** `pwd`
+```bash
+$ pwd
+```
+Salida:
+```
+/home/tu_usuario
+```
+ 
+`pwd` significa *Print Working Directory*. Te dice en qué carpeta estás en este momento.
+
+**Fecha y hora —** `date`
+```bash
+$ date
+```
+Ejemplo de salida:
+```
+Sun May  3 10:45:23 CST 2026
+```
+Muestra la fecha y hora actuales del sistema.
+ 
+---
+
+## Cómo se construye un comando
+La mayoría de los comandos siguen esta estructura:
+```
+comando [opciones] [argumentos]
+```
+
+- **comando** → la acción que quieres ejecutar (`ls`, `cp`, `mkdir`...)
+- **opciones** → modifican cómo se comporta el comando, suelen empezar con `-` o `--`
+- **argumentos** → sobre qué actúa el comando (un archivo, una carpeta, un texto...)
+
+Ejemplo:
+ 
+```bash
+$ ls -l /home
+```
+ 
+- `ls` → el comando (listar archivos)
+- `-l` → opción (formato largo/detallado)
+- `/home` → argumento (la carpeta que quiero listar)
+
+---
+
+## Cómo pedir ayuda desde la terminal
+Una de las habilidades más importantes es aprender a ayudarse así mismo desde la terminal.
+
+Manual completo — `man`
+ 
+```bash
+$ man ls
+```
+
+**Abre el manual del comando ls.**
+- Navega con flechas
+- Sal con q
+
+> 💡 `man` funciona para casi cualquier comando. Cuando dudes de cómo usar algo, `man comando` es tu primer recurso.

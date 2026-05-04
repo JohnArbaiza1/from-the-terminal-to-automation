@@ -1,14 +1,21 @@
 # Módulo 1 — Fundamentos de la Terminal
 
-Antes de escribir un solo script, necesitas sentirte cómodo con la terminal. Este módulo te llevará desde "¿qué es esto?" hasta manejar archivos, permisos, procesos y redes básicas con confianza.
+Antes de escribir tu primer script en Bash, es importante familiarizarte con la terminal.  
+Este módulo está diseñado para llevarte desde cero absoluto hasta un manejo cómodo de comandos esenciales, incluyendo navegación de archivos, permisos, procesos y conceptos básicos de red.
 
-## Secciones de este módulo
+La idea es que no solo memorices comandos, sino que entiendas cómo interactuar con el sistema desde la línea de comandos.
 
-1. [¿Qué es la terminal?](01-que-es-la-terminal/) — El primer paso
+---
 
+## Secciones del módulo
+
+1. [¿Qué es la terminal?](/01-fundamentos-terminal/01-que-es-la-terminal.md)  
+   Introducción a la terminal, el shell y los conceptos básicos.
+
+---
 
 ## Tiempo estimado
 
-Entre 4 y 8 horas según tu ritmo, incluyendo práctica.
+Entre **4 y 8 horas**, dependiendo de tu ritmo de aprendizaje y el tiempo que dediques a la práctica.
 
-> 💡 No te apresures. Es mejor practicar cada sección a fondo antes de avanzar.
+> 💡 Recomendación: practica cada comando mientras avanzas. La terminal se aprende usándola, no solo leyéndola.
