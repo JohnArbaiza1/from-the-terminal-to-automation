@@ -7,6 +7,7 @@ Probablemente estés acostumbrado a interactuar con tu computadora usando el mou
 La terminal es una interfaz basada en comandos que nos permite. controlar el sistema de forma directa. En lugar de usar elementos visuales se escriben instrucciones que la computadora ejecuta, lo que da un mayor nivel de precisión y control.
 
 **Por ejemplo:**
+
 En lugar de hacer clic en "Nueva Carpeta", escribes `mkdir nueva-carpeta`.  
 En lugar de arrastrar un archivo, escribes `mv archivo.txt carpeta/`.
  
@@ -137,8 +138,34 @@ Manual completo — `man`
 $ man ls
 ```
 
-**Abre el manual del comando ls.**
-- Navega con flechas
-- Sal con q
+## Historial de comandos
+ 
+Bash guarda todos los comandos que has ejecutado. Puedes verlos con:
+ 
+```bash
+$ history
+```
+ 
+Para repetir un comando anterior, puedes usar `!número`:
+ 
+```bash
+$ !42    # Ejecuta el comando número 42 del historial si lo hubiera
+$ !!     # Repite el último comando ejecutado
+```
+ 
+---
+ 
+## La terminal no muerde
+ 
+Dos cosas importantes para perderle el miedo:
+ 
+1. **Si un comando falla, simplemente te lo dice** con un mensaje de error. No "rompe" nada.
+2. **Puedes cancelar cualquier comando** con `Ctrl + C` si algo va mal o tarda demasiado.
+Los únicos comandos verdaderamente peligrosos son los que borran archivos permanentemente (como `rm -rf`), y los veremos con precaución cuando llegue el momento.
 
-> 💡 `man` funciona para casi cualquier comando. Cuando dudes de cómo usar algo, `man comando` es tu primer recurso.
+
+## Próximo paso
+ 
+Una vez que te sientas cómodo con la idea de escribir comandos y pedir ayuda, pasa a:
+ 
+➡️ [Navegación — Cómo moverte por el sistema de archivos](../01-fundamentos-terminal/02-navegacion.md)
