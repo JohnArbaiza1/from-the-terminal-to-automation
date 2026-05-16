@@ -11,7 +11,7 @@ La idea es que no solo memorices comandos, sino que entiendas cómo interactuar 
 
 1. [¿Qué es la terminal?](/01-fundamentos-terminal/01-que-es-la-terminal.md)  
    Introducción a la terminal, el shell y los conceptos básicos.
-
+2. [Navegación](/01-fundamentos-terminal/02-navegacion.md) — Moverte por el sistema de archivos
 ---
 
 ## Tiempo estimado
